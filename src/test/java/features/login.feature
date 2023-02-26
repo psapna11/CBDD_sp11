@@ -7,7 +7,7 @@ Feature: login.feature
     When user click on login button
     Then user should be able to successfully login
 
-  Scenario: user shuld not able to login with valid email and invalid password
+  Scenario: user should not able to login with valid email and invalid password
     Given user should be on TalentTEK homepage
     And user enter valid email address
     And user enter invalid password
@@ -16,7 +16,7 @@ Feature: login.feature
 
 
 
-  Scenario: user shuld not able to login with invalid email and valid password
+  Scenario: user should not able to login with invalid email and valid password
     Given user should be on TalentTEK homepage
     And user enter invalid email address
     And user enter valid password
